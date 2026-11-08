@@ -1,6 +1,6 @@
 # Subhan & Mutiyah
 
-Rekonstruksi undangan pernikahan Sunda berdasarkan https://art.webinvite.id/yulia-farhan/ . Struktur, ornamen, font, warna, dan video pembuka mengikuti referensi; nama, foto dan detail acara adalah contoh.
+Rekonstruksi undangan pernikahan Sunda berdasarkan https://art.webinvite.id/yulia-farhan/ . Struktur dan alur mengikuti referensi, dengan ilustrasi paviliun taman, bunga, dan bingkai khusus. Nama, foto, dan detail acara adalah contoh. Pembuka memakai animasi lapisan dekoratif.
 
 ## Menjalankan
 

@@ -11,3 +11,11 @@ Foto ilustrasi memakai lisensi Unsplash: https://unsplash.com/license .
 - `celebration.jpg`: https://images.unsplash.com/photo-1511285560929-80b456fea0bc
 
 Foto tidak menyatakan bahwa subjek adalah pasangan contoh Subhan & Mutiyah. Foto personal undangan referensi tidak disertakan.
+
+## Ilustrasi taman khusus
+
+- `public/assets/custom/garden-scene.webp`: paviliun kayu, jembatan batu, kolam, willow, dan jacaranda.
+- `public/assets/custom/floral-border.webp`: mawar ivory, peony blush, bunga biru, dan daun sage; latar transparan.
+- `public/assets/custom/botanical-frame.webp`: bingkai lengkung perak/champagne dengan bunga asimetris; latar transparan.
+
+Ketiganya merupakan ilustrasi khusus undangan ini. Tidak memakai foto gedung atau nama tempat di dalam gambar. Aset ditayangkan secara lokal dalam WebP. Pembuka menggunakan animasi lapisan CSS dari ilustrasi baru; video dekorasi referensi tidak lagi dimuat. Daftar sumber referensi di atas disimpan untuk riwayat dan tidak menyatakan bahwa semua aset tersebut masih digunakan.

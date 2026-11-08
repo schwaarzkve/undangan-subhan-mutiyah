@@ -2,3 +2,25 @@
 
 .info_modalx div:not(.wdp-button-wrapper){opacity:1!important;filter:none!important;transform:none!important;animation:none!important}.cui-wrap-comments{display:block!important}.elementor-tab-content:not([hidden]){display:block!important}.motionText.motion-visible{opacity:1!important}.elementor-element-261c3e33 .elementor-widget-image img[alt*="ilustrasi"]{border-radius:45% 45% 8px 8px;object-fit:cover;max-height:420px}
 html{scrollbar-width:none}html::-webkit-scrollbar,body::-webkit-scrollbar{display:none}
+
+
+.opening-art{position:absolute;inset:0;overflow:hidden;pointer-events:none;background:#f5f0ed}
+.opening-art img{display:block;position:absolute;pointer-events:none}
+.opening-landscape{inset:0;width:100%;height:100%;object-fit:cover}
+.opening-frame{width:86%;height:68%;left:7%;top:7%;object-fit:fill;opacity:0}
+.opening-florals{width:110%;max-width:none;left:-5%;bottom:-2%;height:25%;object-fit:fill;opacity:0}
+.opening-art.is-playing .opening-landscape{animation:garden-arrive 7s ease-out both}
+.opening-art.is-playing .opening-frame{animation:frame-arrive 2s 1s ease-out both}
+.opening-art.is-playing .opening-florals{animation:flowers-arrive 2.8s .3s ease-out both}
+@keyframes garden-arrive{from{transform:scale(1.12);filter:blur(2px)}to{transform:scale(1);filter:blur(0)}}
+@keyframes frame-arrive{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:scale(1)}}
+@keyframes flowers-arrive{from{opacity:0;transform:translateY(25%)}to{opacity:1;transform:translateY(0)}}
+.custom-scenery,.custom-floral{height:auto!important}
+.elementor-254816 .elementor-element.elementor-element-44cd1868>.elementor-widget-wrap,
+.elementor-254816 .elementor-element.elementor-element-78d3b91e>.elementor-widget-wrap{background-image:url('/assets/custom/botanical-frame.webp'),url('/assets/custom/garden-scene.webp')!important;background-size:94% 96%,cover!important;background-position:center,bottom center!important;background-repeat:no-repeat!important}
+.elementor-254816 .elementor-element.elementor-element-66d05d4a>.elementor-widget-wrap>.elementor-background-overlay{background-image:linear-gradient(180deg,#d5e0e9,#f3dfe4)!important;opacity:.72!important}
+.elementor-254816 .elementor-element.elementor-element-43a51ba0{background-image:linear-gradient(180deg,#e6eaf0,#f6e4e6)!important}
+.elementor-254816 .elementor-element.elementor-element-24ee7920>.elementor-background-overlay{background-image:linear-gradient(180deg,#f6e4e6,#dce5ee)!important}
+@media(prefers-reduced-motion:reduce){.opening-frame,.opening-florals{opacity:1}.opening-art img{animation:none!important;transform:none!important;filter:none!important}}
+.opening-art .opening-landscape{width:100%;height:100%;max-width:none;object-fit:cover;object-position:center bottom}.opening-art .opening-frame{width:90%;height:73%;max-width:none;left:5%;top:7%}.opening-art .opening-florals{width:110%;height:25%;max-width:none}
+.elementor-254816 .elementor-element.elementor-element-44cd1868>.elementor-widget-wrap,.elementor-254816 .elementor-element.elementor-element-78d3b91e>.elementor-widget-wrap{background-image:url("/assets/custom/botanical-frame.webp"),linear-gradient(180deg,rgba(255,250,244,.08) 0%,rgba(255,250,244,.94) 28%,rgba(255,250,244,.92) 74%,rgba(255,250,244,.08) 100%),url("/assets/custom/garden-scene.webp")!important;background-size:94% 96%,cover,cover!important;background-position:center,center,bottom center!important}

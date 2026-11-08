@@ -20,3 +20,7 @@ Nama, foto, keluarga, tanggal, dan lokasi menggunakan data contoh Subhan & Mutiy
 ## Batas verifikasi
 
 Kemiripan visual dipandu HTML/CSS/aset publik dan rekaman browser. Tidak ada klaim bahwa backend, sumber asli, atau setiap piksel di semua perangkat identik. Penggantian foto/nama mengubah tampilan bagian personal. Daftar sumber aset ada di `public/reference/asset-manifest.json`; keberadaan URL publik bukan bukti lisensi redistribusi komersial.
+
+## Penggantian elemen dekoratif
+
+Struktur referensi tetap dipertahankan. Ilustrasi gedung, lanskap pepohonan, rangkaian bunga, motif gunungan, dan bingkai dekoratif aktif telah diganti dengan satu set taman paviliun dan bingkai botanikal. Alur cover, isi, galeri, jadwal, RSVP, hadiah, dan kalender tidak berubah. Pembuka memakai lapisan taman, bingkai, dan bunga yang dianimasikan dengan CSS; bukan video Gedung Sate pada referensi. Preferensi reduced motion didukung.
