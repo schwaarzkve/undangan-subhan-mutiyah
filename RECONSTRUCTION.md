@@ -20,7 +20,3 @@ Nama, foto, keluarga, tanggal, dan lokasi menggunakan data contoh Subhan & Mutiy
 ## Batas verifikasi
 
 Kemiripan visual dipandu HTML/CSS/aset publik dan rekaman browser. Tidak ada klaim bahwa backend, sumber asli, atau setiap piksel di semua perangkat identik. Penggantian foto/nama mengubah tampilan bagian personal. Daftar sumber aset ada di `public/reference/asset-manifest.json`; keberadaan URL publik bukan bukti lisensi redistribusi komersial.
-
-## Tema marun
-
-Tampilan aktif telah dikembangkan menjadi tema marun–ivory–emas dengan layout, cover, kartu acara, galeri, dan timeline tersendiri. Markup/CSS Elementor tidak lagi dimuat. Video Sunda tetap dipakai sebagai tekstur animasi monokrom yang halus; aset referensi yang tidak dipakai tetap tersimpan untuk riwayat proyek. Identitas dan konten aktif terpusat di config.js.
