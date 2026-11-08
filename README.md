@@ -1,6 +1,6 @@
 # Subhan & Mutiyah
 
-Rekonstruksi undangan pernikahan Sunda berdasarkan https://art.webinvite.id/yulia-farhan/ . Struktur, ornamen, font, warna, dan video pembuka mengikuti referensi; nama, foto dan detail acara adalah contoh.
+Undangan pernikahan dengan tema marun, ivory, dan emas. Desktop memakai panel foto di samping dan halaman undangan; HP memakai satu kolom. Nama mempelai Subhan & Mutiyah; foto dan detail acara masih contoh.
 
 ## Menjalankan
 
@@ -15,7 +15,7 @@ npm run preview
 
 ## Personalisasi
 
-Edit teks acara di `index.html` dan samakan tanggal/jadwal/nama di `config.js`. Ganti foto contoh di `public/assets/`. Konfigurasi dinamis mengendalikan judul tab, countdown, file kalender, penerimaan RSVP, dan hadiah. Tautan nama tamu: `?to=Nama%20Tamu`. Musik: `public/assets/selamanya.wav`.
+Edit nama, keluarga, tanggal, tempat, dan cerita di `config.js`. Semua bagian halaman, countdown, dan kalender mengikuti konfigurasi tersebut. Ganti foto contoh di `public/assets/`. Konfigurasi dinamis mengendalikan judul tab, countdown, file kalender, penerimaan RSVP, dan hadiah. Tautan nama tamu: `?to=Nama%20Tamu`. Musik: `public/assets/selamanya.wav`.
 
 RSVP contoh disimpan lokal di browser pengunjung. Data tidak dibagikan antarpengunjung dan tidak terkirim ke mempelai. Untuk RSVP sungguhan, isi `rsvpEndpoint` dengan endpoint HTTPS yang menerima JSON `{name,attendance,message}`. Endpoint harus menyediakan validasi, CORS, penyimpanan, dan pembatasan permintaan. Rahasia backend tidak boleh diletakkan dalam frontend.
 
